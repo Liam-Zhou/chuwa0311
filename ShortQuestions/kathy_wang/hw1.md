@@ -1,6 +1,10 @@
 Learn MarkDown and show all of basic usage in the ShortQuestions/README.md
-1.  https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formattin
-g-on-github/basic-writing-and-formatting-syntax
+
+
+1.  https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+
+  Please refer to README.md
+  
 2.  practice git using the platform. list the git commands you learned
 - 1.  https://learngitbranching.js.org/
 3.  What is the basic steps to init a git repo in you local ?
