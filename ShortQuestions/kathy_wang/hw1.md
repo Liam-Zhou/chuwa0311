@@ -1,13 +1,11 @@
-Learn MarkDown and show all of basic usage in the ShortQuestions/README.md
+1. Learn MarkDown and show all of basic usage in the ShortQuestions/README.md
+https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 
-
-1.  https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
-
-  Please refer to README.md
+   - Please refer to README.md
   
 2.  practice git using the platform. list the git commands you learned
-  1.  https://learngitbranching.js.org/
-  2.  git commit
+   - 1.  https://learngitbranching.js.org/
+   - 2.  git commit
   3.  git checkout -b fixBug
   4.  $ git checkout -b bugFix
   5.  $ git rebase main
