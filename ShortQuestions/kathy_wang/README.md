@@ -109,7 +109,11 @@ A footnote can also have multiple lines[^2].
 > [!CAUTION]
 > Advises about risks or negative outcomes of certain actions.
 
+# Hiding content with comments
+<!-- This content will not appear in the rendered Markdown -->
 
+# Ignoring Markdown formatting
+Let's rename \*our-new-project\* to \*our-old-project\*.
 
-
+# Disabling Markdown rendering
 
