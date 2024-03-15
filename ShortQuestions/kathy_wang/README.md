@@ -72,7 +72,15 @@ This site was built using [GitHub Pages](https://pages.github.com/).
 - [ ] Add delight to the experience when all tasks are complete :tada:
 
 # Mentioning people and teams
-@github/support What do you think about these updates?
+ What do you think about these updates?
+ @github/support
+
+# Referencing issues and pull requests
+  using #
+
+# Using emojis
+@octocat :+1: This PR looks great - it's ready to merge! :shipit:
+
 
 
 
