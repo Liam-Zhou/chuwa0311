@@ -49,7 +49,7 @@ https://docs.github.com/en/get-started/writing-on-github/getting-started-with-wr
     - install is install the artifact to target directory
 12.  What is plugins in maven, list some plugins.
     - plugins can provide additional functions, you can use plugin to automate some functionality, you can also write your own plugin
-    - maven-assembly-plugin
+    -  maven-assembly-plugin
     - maven-dependency-plugin
     - versions-maven-plugin
 13.  In Repo/MavenProject directory, create a maven Module using Intellij, named it as belows:
