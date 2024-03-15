@@ -13,20 +13,22 @@
    - Add the files to the staging area: **_git add README.md_**
    - Commit: **_git commit -m "My commit: Added README.md"_**
    - Add and commit any additional changes: **_git add ._**, **_git commit -m "second"_**
-4.  **_git clone repository_url_**
-5. - **_git branch my_branch_**
-   - **_git checkout my_branch_**
-6. - **_checkout master_**
-   - **_git pull origin master_**
-   - **_git merge branch_test_**
-   - For any merge conflicts: After resolve these conflicts manually,add the resolved files (git add) and then (git commit).
-   - **_git push origin master_**
+4.  ```git clone repository_url```
+5. ```git branch my_branch
+      git checkout my_branch
+   ```
+6. ```checkout master
+   git pull origin master
+   git merge branch_test
+   ```
+   For any merge conflicts: After resolve these conflicts manually,add the resolved files (git add) and then (git commit).
+   ```git push origin master```
 7. **_How to stash your new code before leaving branch "branch_learn_stash" and copy your stash when you checkout back to "branch_learn_stash" ? try commands way and intellij way?_**
-   
-     - **_git stash_** //save temporarily in a "stash"
-     - **_git branch my_branch_**
-     - **_git checkout branch_learn_stash_**
-     - **_git stash apply_** //apply the most recent stash to working directory
+     - ```git checkout branch_learn_stash```
+     - ```git stash``` //save temporarily in a "stash"
+     - ```git branch my_branch```
+     - ```git checkout branch_learn_stash```
+     - ```git stash apply``` //apply the most recent stash to working directory
    - **Using IntelliJ IDEA:**
      - open Git -> Uncommitted Changes -> stash changes
      - switch to another branch Git -> Branches -> choose it
@@ -56,7 +58,9 @@
     - **package** will compile your code and also package it. For example, if your pom says the project is a jar, it will create a jar for you when you package it and put it somewhere in the target directory (by default).
     - **install** will compile and package, but it will also put the package in your local repository. This will make it so other projects can refer to it and grab it from your local repository.
 12. **_What is plugins in maven, list some plugins?_**
-    - Build – executed during the build process. Examples include Clean, Install, and Surefire plugins. These should be configured in the build section of the POM.
-    - Reporting – executed during site generation to produce various project reports. Examples include Javadoc and Checkstyle plugins.
+    - plugins are a primary way of adding new functionality to the build process.
+    - **Maven has two types of plugins:**
+      - Build – executed during the build process. Examples include Clean, Install, and Surefire plugins. These should be configured in the build section of the POM.
+      - Reporting – executed during site generation to produce various project reports. Examples include Javadoc and Checkstyle plugins.
 13. Done
 14. Done
