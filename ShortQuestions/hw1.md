@@ -1,4 +1,5 @@
 ## 1. Learn MarkDown and show all of basic usage in the ShortQuestions/README.md
+[README.md](README.md)
 
 ## 2.  Practice git using the platform. list the git commands you learned
 git clone, git init, git status, git commit, git pull, git push, git merge, git stash, git stash pop, git branch, git checkout
@@ -23,8 +24,9 @@ commands way:
 2. git checkout [other branch]
 3. git checkout branch_learn_stash
 4. git stash pop.
-intellij way:
 
+intellij way:
+VCS -> Git -> Stash Changes -> Switch branches -> Unstash Changes
 ## 8.  How do you understand PR is based on Branch?
 A PR is a way to merge changes, it requests to merge one branch into another
 
@@ -46,9 +48,13 @@ repository.
 
 ## 12.  What is plugins in maven, list some plugins.
 Plugins are tools that provide specific goals to fulfill requirements of building and managing a project.
-For example, Maven compiler plugin compiles Java sources.
-Maven JAR Plugin packs the compiled project files into a JAR file.
-Maven Clean Plugin cleans up the project’s directory by removing build files generated at build-time.
-## 13.  In Repo/MavenProject directory, create a maven Module using Intelli
 
+For example, Maven compiler plugin compiles Java sources.
+
+Maven JAR Plugin packs the compiled project files into a JAR file.
+
+Maven Clean Plugin cleans up the project’s directory by removing build files generated at build-time.
+## 13. In Repo/MavenProject directory, create a maven Module using Intellij, named it as belows: 
+    1.  groupID: com.chuwa.learn 
+    2.  artifactID: java-core
 ## 14.  Do Code Review: Go over the PRs in your repo, tried to leave some useful or useful comments in other students' PR, please don't merge it.
