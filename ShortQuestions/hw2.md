@@ -13,6 +13,12 @@ Why need wrapper class:
 - Primitives cannot be null, but their wrapper class objects can be. This is useful for representing a lack of a value or checking if a value has been assigned.
 
 ## 3. What is the difference between HashMap and HashTable?
+| HashMap | HashTable |
+|----------|----------|
+| No method is synchronized    | Every method is synchronized |
+| Multiple threads can operate simultaneously and hence hashmap’s object is not thread-safe.    | At a time only one thread is allowed to operate the Hashtable’s object. Hence it is thread-safe.   |
+| Threads are not required to wait and hence relatively performance is high.    | It increases the waiting time of the thread and hence performance is low  |
+| Null is allowed for both key and value    | Null is not allowed for both key and value.    |
 
 ## 4. What is String pool in Java and why we need String pool?
 
@@ -27,8 +33,22 @@ Why need wrapper class:
 | Public    | declarations are visible everywhere    |
 
 ## 7. What is final key word? (Filed, Method, Class)
+If you use final with a primitive type variable, then its value cannot be changed once assigned.
+If you use final with a method, then you cannot override it in the subclass.
+If you use final with class, then that class cannot be extended.
+If you use final with an object type, then that object cannot be referenced again.
+
 ## 8. What is static keyword? (Filed, Method, Class). When do we usually use it?
+static makes something class level.
+
 ## 9. What is the differences between overriding and overloading?
+| overriding | overloading |
+|----------|----------|
+| When the subclass have methods that have same name, return type, parameters to its super class  | Within a class, two methods have same name, return type, but different parameters     |
+| Private    | declarations are visible within the class only    |
+| Protected    | declarations are visible within the package or all subclasses    |
+| Public    | declarations are visible everywhere    |
+
 ## 10. What is the differences between super and this?
 ## 11. What is the Java load sequence?
 ## 12. What is Polymorphism ? And how Java implements it ?
