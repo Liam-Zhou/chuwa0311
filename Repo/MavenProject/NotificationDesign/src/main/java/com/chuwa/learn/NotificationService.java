@@ -27,4 +27,10 @@ class NotificationService {
         Notification notification = NotificationFactory.getNotification(user.getNotificationPreference());
         notification.sendNotification(user, message);
     }
+
+    public static void broadcastNotification(String message) {
+        for (User user : users.values()) {
+            sendNotification(user.getEmail(), message);
+        }
+    }
 }
