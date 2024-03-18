@@ -209,7 +209,7 @@
 
 15. design a parking lot (put the code to **codingQuestions**/coding 1 folder, If you have no ability to design it, please find the solution in internet, then understand it, and re-type it. (**Do NOT just copy and paste**)
 
-    [Parking Lot]()
+    [Parking Lot](https://github.com/Liam-Zhou/chuwa0311/tree/Shuyu_Wu/hw2/Coding/coding1/ParkingLot)
 
     
 
