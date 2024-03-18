@@ -84,7 +84,7 @@ class Main {
 
         myAnimal.sound(); // Outputs: This animal makes a sound.
         myDog.sound(); // Outputs: The dog barks.
-        myCat.sound(); // Outputs: The
+        myCat.sound(); // Outputs: The cat meows.
 
 ```
 
