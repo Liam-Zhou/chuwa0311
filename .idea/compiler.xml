@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="coding1" />
+        <module name="CreditCardNotification" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="17">
       <module name="coding1" target="17" />
+      <module name="CreditCardNotification" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>
