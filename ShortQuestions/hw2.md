@@ -80,7 +80,7 @@ it is synchronized, but less efficient in scenarios where thread safty is not co
 it does not allow null keys or null values;
 ```
 
-###Question4: What is String pool in Java and why we need String pool?
+### Question4: What is String pool in Java and why we need String pool?
 ```
 String pool is a special storage area in Java jeap memory used to store unique string iterals.
 We need String Pool because strings are immutable in Jave, storing only one copy of each Literal 
@@ -88,12 +88,12 @@ string in the pool saves memory, and it provides faster string comparison, becau
 pool have the same content and represented by the same memory address.
 ```
 
-###Question5: What is Java garbage collection?
+### Question5: What is Java garbage collection?
 ```
 Java grabage collection is a form of automatic memory management to reclaim the unused memory allocated 
 by objects that are no longer need by java application.
 ```
-###Question6: What are access modifiers and their scopes in Java?
+### Question6: What are access modifiers and their scopes in Java?
 ```
 Public: anywhere
 private: accessible only within the class it is declared
@@ -101,7 +101,7 @@ default: accessible only within same package
 protected: accessible within the same package and also accessible in subclasses residing in different packages.
 
 ```
-###Question7: What is final key word? (Filed, Method, Class)
+### Question7: What is final key word? (Filed, Method, Class)
 ```
 Final keyword is a modifier.
 In Field: it means that the variable is a constant and cannot be reassigned once it has been assigned a value.
@@ -109,7 +109,7 @@ In Method: it means that the method cannot be overridden by subclasses.
 In Class: it means that the class cannot be subclassed.
 ```
 
-###Question8: What is static keyword? (Filed, Method, Class). When do we usually use it?
+### Question8: What is static keyword? (Filed, Method, Class). When do we usually use it?
 ```
 static keyword indicates that the particular member belongs to the class itself, 
 rather than to instances of the class.
@@ -119,7 +119,7 @@ In Method: A static method belongs to the class rather than any instance of the 
 In Class: A static class do not requre an instance of the outer class to be created, it is used to group related classes together.
 
 ```
-###Question9: What is the differences between overriding and overloading?
+### Question9: What is the differences between overriding and overloading?
 ```
 overriding:
 It is the subclass has a method with the same name, return type and parameters as a method in its superclass;
@@ -128,36 +128,36 @@ overloading:
 It is two or more methods in one class have the same method name buyt differnt type, number of parameters;
 It is resolved at compile-time;
 ```
-###Question10: What is the differences between super and this?
+### Question10: What is the differences between super and this?
 ```
 this: it is a reference to the current object
 super: it refers to the parent class of the object or the class where the current class is derived from
 ```
-###Question11: What is the Java load sequence?
+### Question11: What is the Java load sequence?
 ```
 The Jave load sequence is a fundamental concept that defines how classes are loaded, lined and initialized within the JVM.
 ```
 
-###Question12: What is Polymorphism ? And how Java implements it ?
+### Question12: What is Polymorphism ? And how Java implements it ?
 ```
 Polymorphism simply means Many forms, many forms can be combined into a single interface.
 Java implements is by overloading and overriding.
 ```
-###Question13: What is Encapsulation ? How Java implements it? And why we need encapsulation?
+### Question13: What is Encapsulation ? How Java implements it? And why we need encapsulation?
 ```
 Encapsulation means bunding attributes and methods into a single class.
 Java implements by define private attributes and provide getter and setter for the attributes.
 We need encapsulation to provide data safty, make sure the data cannot be modified of access out of the class.
 ```
 
-###Question14: What is Interface and what is abstract class? What are the differences between them?
+### Question14: What is Interface and what is abstract class? What are the differences between them?
 ```
 Both of them are used to achieve abstration, we can define a contract for subclasses without providing 
 a complete implementation.
 Interface cannot have fully implemented methods, but abstract classes can. Abstract class can have constructors and fields.
 The access modifier of interface method are public by default.
 ```
-###Question16: What are Queue interface implementations and what are the differences and when to use what?
+### Question16: What are Queue interface implementations and what are the differences and when to use what?
 ```
 LinkedList: implements both List and Queue interfaces, we use it when we need FIFO data structure
 PriorityQueue: An unbounded priority queue based on a priority heap, elements of priority queue are ordered according to their natural ording or by a comparator.
