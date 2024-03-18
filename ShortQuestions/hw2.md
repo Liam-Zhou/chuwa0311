@@ -4,6 +4,8 @@ Encapsulation;
 Polymorphism;
 Inheritance;
 ```
+In Coding folder Demo.Java
+
 ## 2. What is wrapper class in Java and Why we need wrapper class?
 Wrapper classes in Java are a part of the java.lang package and serve as the object representation of the eight primitive data types. In Java, primitive data types (like int, char, double, etc.) are not objects; they are stored directly in memory and are very fast to access. However, there are situations in Java programming where you need to use objects instead of primitives. This is where wrapper classes come in.
 
@@ -95,6 +97,7 @@ can have default and static methods as well)
 - An Abstract class can extend one other class and can implement multiple interfaces but an interface can only extend other interfaces
 
 ## 15. design a parking lot (put the code to codingQuestions/coding1 folder, ) If you have no ability to design it, please find the solution in internet, then understand it, and re-type it.(Do NOT just copy and paste)
+In Coding folder.
 
 ## 16. What are Queue interface implementations and what are the differences and when to use what
 The Queue interface in Java is part of the Java Collections Framework and provides a structure for storing elements in a specific order for processing.
