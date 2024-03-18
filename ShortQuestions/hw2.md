@@ -1,8 +1,92 @@
 ## 1. Write up Example code to demonstrate the three foundmental concepts of OOP. (reference Code Demo repo as example)
 
-    1.  Encapsulation;
-    2.  Polymorphism;
-    3.  Inheritance;
+```java
+//Encapsulation
+public class Account {
+    private double balance; // Private variable, encapsulated
+
+    // Constructor
+    public Account(double initialBalance) {
+        if (initialBalance > 0) {
+            this.balance = initialBalance;
+        }
+    }
+
+    // Public getter method to access the private balance variable
+    public double getBalance() {
+        return balance;
+    }
+
+    // Public method to add amount to balance, encapsulating the modification logic
+    public void deposit(double amount) {
+        if (amount > 0) {
+            balance += amount;
+        }
+    }
+}
+
+class Main {
+    public static void main(String[] args) {
+        Account myAccount = new Account(1000);
+        myAccount.deposit(500);
+        System.out.println("Current balance: $" + myAccount.getBalance());
+    }
+}
+
+
+//Inheritance
+// Base class
+class Animal {
+    void eat() {
+        System.out.println("This animal eats food.");
+    }
+}
+
+// Derived class
+class Dog extends Animal {
+    void bark() {
+        System.out.println("The dog barks.");
+    }
+}
+
+class Main {
+    public static void main(String[] args) {
+        Dog myDog = new Dog();
+        myDog.eat(); // Method from Animal (base class)
+        myDog.bark(); // Method from Dog (derived class)
+    }
+}
+
+// Polymorphism
+class Animal {
+    void sound() {
+        System.out.println("This animal makes a sound.");
+    }
+}
+
+class Dog extends Animal {
+    void sound() {
+        System.out.println("The dog barks.");
+    }
+}
+
+class Cat extends Animal {
+    void sound() {
+        System.out.println("The cat meows.");
+    }
+}
+
+class Main {
+    public static void main(String[] args) {
+        Animal myAnimal = new Animal();
+        Animal myDog = new Dog();
+        Animal myCat = new Cat();
+
+        myAnimal.sound(); // Outputs: This animal makes a sound.
+        myDog.sound(); // Outputs: The dog barks.
+        myCat.sound(); // Outputs: The
+
+```
 
 ## 2. What is wrapper class in Java and Why we need wrapper class?
 
