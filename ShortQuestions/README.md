@@ -32,7 +32,7 @@ git commit -m "messages"
 ```
 - push to origin to raise a PR on github
 ```bash
-git push origin Becky_Song/hw[x]:Becky_Song/master 
+git push origin Becky_Song/hw[x] 
 ```
 - open github create PR, wait for review, then merge the hw branch to master branch.
 
@@ -40,3 +40,4 @@ git push origin Becky_Song/hw[x]:Becky_Song/master
 
 1. Week 1
     - [x] [HW 1 Maven; Git; PR](hw1.md)
+    - [x] [HW 2 Java OOP](hw2.md)
