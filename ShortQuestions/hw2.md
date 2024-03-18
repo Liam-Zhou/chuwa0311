@@ -102,10 +102,10 @@ The Queue interface in Java is part of the Java Collections Framework and provid
 - Features: Implements both List and Queue interfaces. It is a doubly-linked list that allows for efficient insertion and removal operations.
 - When to Use: Use LinkedList when you need a general-purpose queue and also might need list operations. It's not thread-safe, so external synchronization is needed for concurrent access.
 
-3. PriorityQueue
+2. PriorityQueue
 - Features: An unbounded priority queue based on a priority heap. Elements of the queue are ordered according to their natural ordering or by a Comparator provided at queue construction time.
 - When to Use: Use PriorityQueue when you need to process elements not in FIFO (first-in-first-out) but in priority order. It's not thread-safe.
 
-5. ArrayDeque
+3. ArrayDeque
 - Features: A resizable-array implementation of the Deque interface. It has no capacity restrictions and is faster than LinkedList when used as a queue.
 - When to Use: Use ArrayDeque when you need a highly efficient queue (or stack) and do not require capacity constraints. It's not thread-safe.
