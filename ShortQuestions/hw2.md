@@ -46,6 +46,7 @@ public class Calculator{
 	}
 }
 
+//run-time Polymorphism
 class Animal{
 	public void sound() {
 		System.out.println("Animal makes a sound");
@@ -68,5 +69,25 @@ class Cat extends Animal {
 ```
 
 ```
-//Inheritance
+// Inheritance
+// parent-child relationship, Dogs inherit from Animals is an example
+class Animal{
+	public void sound() {
+		System.out.println("Animal makes a sound");
+	}
+}
+
+class Doc extends Animal {
+	@Override
+	public void sound() {
+		System.out.println("barks");
+	}
+}
 ```
+## 2. What is wrapper class in Java and Why we need wrapper class?
+
+
+
+
+
+
