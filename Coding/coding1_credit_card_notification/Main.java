@@ -8,8 +8,10 @@ public class Main {
         String firstName = "John"; // Example user
         String notificationContent = "Hey " + firstName + ", you have successfully registered!";
         NotificationStrategy notificationStrategy = new NotificationStrategy(userPreference, firstName,notificationContent);
+        notificationStrategy.sendNotification(firstName, notificationContent);
 
         notification.setNotificationStrategy(notificationStrategy);
+        notification.notifyUser(firstName, notificationContent);
 
         // Send notification
 //        String firstName = "John"; // Example user
