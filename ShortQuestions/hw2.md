@@ -118,7 +118,24 @@ JVM collect useless memory by itself, does not need user clean it mannully. The 
 - final method - cannot be overrided
 - final class - cannot be inheritant 
 
+## 8. static keyword
 
+- static field - field belongs to the class itself, rather than an instance, there is only one copy of the static field.
+- static method - class can call the method directly, does not need an instance (famous example: println)
+- static class - usually only used as static nest class, static nested classes are not associated with instances of the outer class, they exist independently, and it can access static members of the outer class, but not non-static members. As they do not have an implicit reference to an instance of the outer class. Furthermore, it often used in singleton design pattern.
+
+## 9. Overriding and Overloading
+
+- overriding (run time) is the child class method override the parent class method, the parameters should be same with the parent class.
+- overloading (compile time) is kind of rewrite of a method, it is in the same class, the method name should be the same but the parameter list must be different
+
+## 10. super vs this
+Super refer to the current class's parent class. This refer to the current class
+
+## 11. Java load sequence
+- 1. static block is called
+  2. check values of static variables
+  3. constructor is called
 
 
 
