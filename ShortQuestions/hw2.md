@@ -107,10 +107,10 @@ JVM collect useless memory by itself, does not need user clean it mannully. The 
 
 ## 6. what are access modifiers and their scopes in Java?
 
-public - any other class or packages
-protected - own packages or subclasses
-default - only in the same package
-private - only within the class
+- public - any other class or packages
+- protected - own packages or subclasses
+- default - only in the same package
+- private - only within the class
 
 ## 7. final keyword
 
