@@ -137,8 +137,69 @@ Super refer to the current class's parent class. This refer to the current class
   2. check values of static variables
   3. constructor is called
 
+## 12. what is polymorphism? And how Java implements it?
+Polymorphism refers to the same object exhibiting different forms and behaviors
 
+In java, we have override an overload to implement
+```
+// Inheritance
+// parent-child relationship, Dogs inherit from Animals is an example
+class Animal{
+	public void sound() {
+		System.out.println("Animal makes a sound");
+	}
+}
 
+class Doc extends Animal {
+	@Override
+	public void sound() {
+		System.out.println("barks");
+	}
+}
+```
 
+## 13. Encapsulation
+Encapsulation is that the internal states of an object is hidden from the outside world, and the access to it is restricted to the methods of the class. In Java, the encapsulation is implemented using classes, access modifiers and accesor method (getter and setter).
 
+We need it since it can have data hiding, improved maintainability, controlled access.
+
+```
+class Area{
+	int length;
+	int breadth;
+
+	Area(int length, int breadth) {
+		this.length = length;
+		this.breadth = breadth;
+	}
+
+	public void getArea() {
+		int area = length * breadth;
+		System.out.println("Area: " + area);
+	}
+}
+
+class Main {
+	public static void main(String[] args) {
+		Area rectangle = new Area(2, 16);
+		rectangle.getArea();
+	}
+}
+```
+## 14. What is Interface and what is abstract class, what are the differences between them?
+ - abstract classes are used when there is some common behavior that all subclasses must share
+ - interfaces are used when there is a set of behaviors that all subclasses must support, but the implementation details can vary
+ - Difference:
+ - 1. interface does not have constructor, and it cannot be instantiate
+   2. a class can implement multiple interfaces, but only extend one abstract class
+  
+## 15. Design a parking lot 
+Please refer to codingQuestions/coding1 folder
+
+## 16. What are Queue interface impelementations and what are the differences and when to use it?
+
+- LinkedList: effecient insert and removal operations at both ends of the list (head and tail), amking it suitable for implementing queues, allows for null elements and maintains insertion order
+- PriorityQueue: unbounded priority queue based on a priority heap, when you need to get smallest/biggest element frequently
+- ArrayDeque: resizable-array impelementation of the Deque interface, provides dynamic array-like behavior, allowing elements to be added or removed from both sides of the deque
+- 
 
