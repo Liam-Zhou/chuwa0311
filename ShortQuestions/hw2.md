@@ -86,6 +86,40 @@ class Doc extends Animal {
 ```
 ## 2. What is wrapper class in Java and Why we need wrapper class?
 
+Wrapper class is classes that encasulates the primitive type into objects, for example, int wraps Integer
+
+We need that main for the Object-Oriented paradigm purpose. The wrapper makes the primitive became an object. Furthermore, the primitive type not allows a null value, but the wrapper class allow that.
+
+## 3. What is the difference between HashMap and HashTable
+
+HashMap is not thread-safe and HashTable is thread-safe. HashMap allow null value but HashTable not allow it. HashMap is more efficiency since HashTable need to deal with the thread-safe problem.
+
+
+## 4. What is String pool in Java and why we need String pool
+
+String pool is a memory space to store string literals. For example if you initialize String a = "Hello" and String b = "Hello", both a and b will refer to the same memory space in the string pool
+
+The benefit of string pool is mainly for Memory efficiency.
+
+## 5. What is Java Garbage collection?
+
+JVM collect useless memory by itself, does not need user clean it mannully. The contrast example is C++, user need to free the memory mannually, otherwise the user will get a memory leak problem.
+
+## 6. what are access modifiers and their scopes in Java?
+
+public - any other class or packages
+protected - own packages or subclasses
+default - only in the same package
+private - only within the class
+
+## 7. final keyword
+
+final fields - cannot be modified
+final method - cannot be overrided
+final class - cannot be inheritant 
+
+
+
 
 
 
