@@ -29,7 +29,42 @@ class Main {
 ```
 
 ```
-//Polymorphism
+// Polymorphism
+// Polymorphism allows objects of different classes to be treated as objects of common superclass or interface
+// overloading: compile time poly, same method, different parameter
+// overriddign: runtime poly, subclass same method name, same parameter
+
+
+//compile-time Polymorphism
+public class Calculator{
+	public int add(int x, int y) {
+		return x + y;
+	}
+
+	public double add(double x, double y) {
+		return x + y;
+	}
+}
+
+class Animal{
+	public void sound() {
+		System.out.println("Animal makes a sound");
+	}
+}
+
+class Doc extends Animal {
+	@Override
+	public void sound() {
+		System.out.println("barks");
+	}
+}
+
+class Cat extends Animal {
+	@Override
+	public void sound() {
+		System.out.println("meows");
+	}
+}
 ```
 
 ```
