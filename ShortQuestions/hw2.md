@@ -114,9 +114,9 @@ JVM collect useless memory by itself, does not need user clean it mannully. The 
 
 ## 7. final keyword
 
-final fields - cannot be modified
-final method - cannot be overrided
-final class - cannot be inheritant 
+- final fields - cannot be modified
+- final method - cannot be overrided
+- final class - cannot be inheritant 
 
 
 
