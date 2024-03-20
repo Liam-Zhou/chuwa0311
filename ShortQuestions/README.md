@@ -41,3 +41,6 @@ git push origin Becky_Song/hw[x]
 1. Week 1
     - [x] [HW 1 Maven; Git; PR](hw1.md)
     - [x] [HW 2 Java OOP](hw2.md)
+
+2. Week 2
+    - [x] [HW 3 Java 8](hw3.md)

@@ -42,7 +42,7 @@ public class Level{
         return parkStartingAtSpot(spotNumber, vehicle);
     }
 
-    private boolean parkStartingAtSpot(int num, Vehicle v){
+    private boolean parkStartingAtSpot(int num, Vehicle vehicle){
         //park a vehicle starting at the spot spotNumber, and continuing until vehicle.spotsNeeded
         vehicle.clearSpots();
         boolean success = true;
@@ -60,11 +60,11 @@ public class Level{
 
         for (int i = 0; i < spots.length; i++){
             ParkingSpot spot = spots[i];
-            if (lastRow != spots.getRow()){
+            if (lastRow != spot.getRow()){
                 spotsFound = 0;
-                lastRow = spots.getRow();
+                lastRow = spot.getRow();
             }
-            if (spots.canFitVehicle(vehicle)){
+            if (spot.canFitVehicle(vehicle)){
                 spotsFound++;
             }
             else{
