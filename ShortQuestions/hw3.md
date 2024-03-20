@@ -103,14 +103,16 @@ Intermediate operations are primarily used to process data in stream.
 Terminal operations are usually used to collect data. Once there is a terminal operation, the stream pipeline will stop.
 
 ## 21. What are the most commonly used Intermediate operations?
- ⼀，筛选
+⼀，筛选
 1. filter(Predicate p) - 接受lambda, 从流中排出某些元素
 2. limit(n) - 截断流，使其元素不超过给定的数量
 3. skip(n) - 跳过前n个元素
 4. distinct() - 筛选，通过元素的hashcode(), equals()去除重复元素
+   
 ⼆，映射
 1, map(function f) element -> black box(f) -> return new element
 2, flatMap(function f) 
+
 三， 排序
 1, sort
 
