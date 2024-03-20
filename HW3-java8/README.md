@@ -8,7 +8,33 @@
 
 3. practice stream API at least 3 times
 
+   ```java
+    import java.util.stream.Collectors;// Obtain a list of products belongs to category “Books” with price > 100
+   List<Product> result = productRepo.findAll()
+    .stream()
+    .filter(p -> p.getCategory().equalsIgnoreCase("Books"))
+    .filter(p -> p.getPrice() > 100)
+    .collect(Collectors.toList());
+   
+   // Calculate order average payment placed on 14-Mar-2021
+   Double result = orderRepo.findAll()
+    .stream()
+    .filter(o ->  o.getOrderDate().isEqual(LocalDate.of(2021, 3, 14)))
+    .flatMap(o -> o.getProducts().stream())
+    .mapToDouble(p -> p.getPrice())
+    .average().getAsDouble();
+   
+   // Get the most expensive product by category
+   Map<String, Optional<Product>> result = productRepo.findAll()
+   .stream()
+   .collect(
+        Collectors.groupingBy(
+            Product::getCategory,
+            Collectors.maxBy(Comparator.comparing(Product::getPrice))));
+   ```
 4. Practice Optional methods at least 2 times
+
+    See ./optionalPractice/ShoppingCartUtil.java
 
 5. Write the Singleton design pattern include eager load and lazy load.
 
@@ -40,7 +66,7 @@
    ```
 6. What is Runtime Exception? could you give me some examples?
 
-   Runtime Exception is exception that occurs on runtime, not complie time.
+   Runtime Exception is exception that occurs on runtime, not compile time.
    Examples:
    - NullPointerException
    - ArrayIndexOutOfBoundsException
