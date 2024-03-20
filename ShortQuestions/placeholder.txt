@@ -1,2 +1,89 @@
-placeholder
+HW2
+ 2.The job of the wrapper class Integer is to provide objects that contain primitive data.
+To treat primitive data types as objects, we need the wrapper class so when we can use wrapper class to put integer etc
+ to the ArrayList which only accept object.
+
+ 3. HashMap :
+ HashMap is not synchronized, which means it is not thread-safe.
+ HashMap allows one null key and multiple null values.
+
+ HashTable:
+HashTable is synchronized, making it thread-safe.
+It does not allow null keys or values.
+
+ 4. String pool is a storage space in the Java heap memory where string literals are stored. It is also known as String
+  Constant Pool or String Intern Pool. It is privately maintained by the Java String class. By default, the String pool
+   is empty.
+
+   We use string pool when comparing strings using equals() is faster because strings with the same content share the
+    same memory location.
+
+ 5. Java garbage collection is the process by which Java programs automatically manage memory allocation and
+ deallocation. It identifies and deletes objects that are no longer in use, freeing up memory resources for new objects
+
+ 6. Access modifiers control the visibility or accessibility of classes, variables, methods, and constructors in Java.
+
+ public: accessible from anywhere.
+ private: accessible only within the same class.
+ protected: accessible within the same package or by subclasses.
+ default: accessible only within the same package.
+
+ 7. final keyword can be applied to fields, methods, and classes.
+    For fields, it indicates that the value cannot be changed once initialized.
+    For methods, it prevents method overriding in subclasses.
+    For classes, it indicates that the class cannot be extended by another class.
+
+ 8. static keyword can be applied to fields, methods, and nested classes.
+    For fields, it indicates that the field is shared among all instances of the class.
+    For methods, it indicates that the method belongs to the class, not to any specific instance.
+    For classes (nested), it indicates that the nested class belongs to the outer class, not to any specific instance.
+
+ 9. Overloading:
+  a. Occurs within the same class when there are multiple methods with the same name but different parameter lists.
+  b. The methods must have the same name but different parameters.
+
+    Overriding:
+  a. Occurs in inheritance when a subclass provides a specific implementation of a method that is already defined in its superclass.
+  b. The method in the subclass must have the same name, return type, and parameter list as the method in the superclass.
+
+ 10. Super:
+ Refers to the superclass instance. Super is used to call superclass methods, and invoke
+ superclass constructors.
+     this:
+ Refers to the current instance of the class. Used to access instance variables or methods, differentiate between
+ instance variables and local variables with the same name.
+
+ 11. Loading: The class loader loads class files into memory.
+     Linking:
+         Verification: Ensures that the loaded class is structurally correct.
+         Preparation: Allocates memory for class variables and initializes them to default values.
+         Resolution: Replaces symbolic references with direct references.
+     Initialization: Initializes class variables and executes static initialization blocks.
+
+ 12. Polymorphism refers to the ability of a single method or variable to operate on different data types.
+ In Java, polymorphism is achieved through method overriding and method overloading.
+
+ 13. Encapsulation is the bundling of data (attributes) and methods (behavior) that operate on the data into a single
+ unit, called a class.
+
+ Encapsulation protect data from unauthorized access or modification, hide the internal implementation details of a
+ class, and provide a clear and consistent interface for interacting with objects.
+
+ 14. Interface:
+         Contains only abstract methods (methods without a body).
+         Cannot have instance variables or constructors.
+         Can be implemented by any class using the implements keyword.
+         Supports multiple inheritance.
+     Abstract class:
+         Can contain abstract methods as well as concrete methods.
+         Can have instance variables, constructors, and regular methods.
+         Cannot be instantiated; must be extended by a subclass using the extends keyword.
+         Supports single inheritance.
+15. see code in Coding folder.
+16.  Queues order elements in a FIFO (First-In-First-Out) manner. Queue can be implemented by:
+
+LinkedList: when you need to modify the queue frequently in the middle.
+ArrayQueue: when you need a general-purpose FIFO queue with better performance, especially for adding/removing elements
+    from both ends.
+PriorityQueue: when elements need to be processed based on their priority.
 

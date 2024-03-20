@@ -4,11 +4,9 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/repo/MavenProject/java-core/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
-  </component>
-  <component name="ProjectRootManager" version="2" default="true">
-    <output url="file://$PROJECT_DIR$/out" />
+    <option name="workspaceImportForciblyTurnedOn" value="true" />
   </component>
 </project>
