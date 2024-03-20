@@ -16,7 +16,7 @@ Please refer the Codings folder
 Please refer the Codings folder
 
 ## 5. Write the Singleton design pattern include eager load and lazy load
-'''
+```
 // Singleton
 
 //Eager Load
@@ -58,6 +58,5 @@ public class Singleton{
 	}
 }
 
-'''
-
+```
 ## 6. 
