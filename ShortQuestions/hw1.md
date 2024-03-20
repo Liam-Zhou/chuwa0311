@@ -54,12 +54,12 @@
 
 + validate: Checks if all necessary information is available and valid.
 + compile: Compiles the source code of the project.
-+ test: Runs tests using a suitable unit testing framework. These tests should not require the code be packaged or deployed.
++ practice1: Runs tests using a suitable unit testing framework. These tests should not require the code be packaged or deployed.
 + package: Packages the compiled code into its distributable format, such as a JAR or WAR. 
 + verify: Runs any checks to verify the package is valid and meets quality criteria. 
 + install: Installs the package into the local repository, which can then be used as a dependency in other projects locally. 
 + deploy: Copies the final package to the remote repository for sharing with other developers and projects. 
-+ These phases are executed sequentially to complete the build process. For example, executing the mvn install command will run not only the install phase but also all preceding phases in the Default lifecycle (validate, compile, test, package, verify).
++ These phases are executed sequentially to complete the build process. For example, executing the mvn install command will run not only the install phase but also all preceding phases in the Default lifecycle (validate, compile, practice1, package, verify).
 
 **Clean Lifecycle**
 
