@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package org.example;
 
 public class EmailNotification implements NotificationStrategy{
@@ -7,3 +8,14 @@ public class EmailNotification implements NotificationStrategy{
         System.out.println("Send " + user.getEmail() + " to "  + user.getName() +": " +message);
     }
 }
+=======
+package org.example;
+
+public class EmailNotification implements NotificationStrategy{
+
+    @Override
+    public void notify(User user, String message) {
+        System.out.println("Send " + user.getEmail() + " to "  + user.getName() +": " +message);
+    }
+}
+>>>>>>> origin/Haolong_Liu/main
