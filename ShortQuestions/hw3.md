@@ -9,11 +9,11 @@ Please refer to the Codings folder
 
 ## 3. practice stream API
 
-Please refer the coe Codings folder
+Please refer the Codings folder
 
 ## 4. practice Optional
 
-Please refer the coe Codings folder
+Please refer the Codings folder
 
 ## 5. Write the Singleton design pattern include eager load and lazy load
 
