@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d69cc2a1-0816-4cf3-b10b-b0a8d8136bad" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Coding.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coding_hw3/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coding_hw3/src/main/java/com/chuwa/learn/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coding_hw3/src/main/java/com/chuwa/learn/EmptyCartException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coding_hw3/src/main/java/com/chuwa/learn/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coding_hw3/src/main/java/com/chuwa/learn/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coding_hw3/src/main/java/com/chuwa/learn/ShoppingCart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coding_hw3/src/main/java/com/chuwa/learn/ShoppingCartAnswer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coding_hw3/src/main/java/com/chuwa/learn/ShoppingCartUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coding_hw3/src/main/java/streamline_API/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coding_hw3/src/main/java/streamline_API/StreamApiIntermediateOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShortQuestions/.hw3.md.swp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="2dxG8qNrRvEgm5bWtGEh1yQIKzs" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.StreamApiIntermediateOperation.testLimit.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "yuze__zhang/hw3",
+    "jdk.selected.JAVA_MODULE": "17",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/yuze/Documents/software/chuwa0311/Coding",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.chuwa.learn" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/coding_hw3" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="StreamApiIntermediateOperation.testLimit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coding_hw3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="streamline_API.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="streamline_API" />
+      <option name="MAIN_CLASS_NAME" value="streamline_API.StreamApiIntermediateOperation" />
+      <option name="METHOD_NAME" value="testLimit" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Coding" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Coding" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.StreamApiIntermediateOperation.testLimit" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-53826d6a" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d69cc2a1-0816-4cf3-b10b-b0a8d8136bad" name="Changes" comment="" />
+      <created>1710942159353</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1710942159353</updated>
+      <workItem from="1710942160546" duration="2930000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
