@@ -8,9 +8,13 @@ Generics is a feature that allows you to write classes, interfaces, and methods 
   
 ## 3. practice stream API at least 3 times
 - https://blog.devgenius.io/15-practical-exercises-help-you-master-javastream-api-3f9c86b1cf82
-  
+
+Uploaded to Coding folder
+
 ## 4. Practice Optional methods at least 2 times
 - https://github.com/TAIsRich/chuwa-eij-tutorial/blob/main/02-java-core/src/main/java/com/chuwa/tutorial/t06_java8/exercise/ShoppingCartUtil.java
+
+Uploaded to Coding folder
   
 ## 5. Write the Singleton design pattern include eager load and lazy load. 
 - Eager Loading Singleton
