@@ -2,8 +2,7 @@ package StreamAPIPractice;
 
 import org.junit.Test;
 
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 import java.util.stream.Collectors;
 
 public class ProductClient {
@@ -26,5 +25,94 @@ public class ProductClient {
                 .collect(Collectors.toList());
     }
 
+    @Test
+    public void toSet() {
+        Set<String> uniqueCategories = productList.stream()
+                .map(Product::getCategory)
+                .collect(Collectors.toSet());
+    }
+
+    @Test
+    public void joining() {
+        String allProductNames = productList.stream()
+                .map(Product::getName)
+                .collect(Collectors.joining(", "));
+        String allProductNamesNewLine = productList.stream()
+                .map(Product::getName)
+                .collect(Collectors.joining("\n"));
+    }
+
+    @Test
+    public void counting() {
+        Map<String, Long> categoryCounts = productList.stream()
+                .collect(Collectors.groupingBy(Product::getCategory, Collectors.counting()));
+    }
+
+    @Test
+    public void summingInt() {
+        int totalStock = productList.stream()
+                .collect(Collectors.summingInt(Product::getStock));
+    }
+
+    @Test
+    public void groupingBy() {
+        Map<String, Integer> categoryStock = productList.stream()
+                .collect(Collectors.groupingBy(Product::getCategory,Collectors.summingInt(Product::getStock)));
+
+        Map<String, Double> categoryAveragePrice = productList.stream()
+                .collect(Collectors.groupingBy(Product::getCategory,Collectors.averagingDouble(Product::getPrice)));
+    }
+
+    @Test
+    public void maxBy() {
+        Optional<Product> maxPriceProduct = productList.stream()
+                .collect(Collectors.maxBy(Comparator.comparingDouble(Product::getPrice)));
+    }
+
+    @Test
+    public void partitionBy() {
+        Map<Boolean, List<Product>> partitionedProducts = productList.stream()
+                .collect(Collectors.partitioningBy(p->p.getPrice() > 100));
+    }
+
+    @Test
+    public void mapping() {
+        Set<String> upperCaseNames = productList.stream()
+                .map(Product::getName)
+                .map(String::toUpperCase)
+                .collect(Collectors.toSet());
+    }
+
+    @Test
+    public void match() {
+        boolean isAnyProductExpensive = productList.stream()
+                .anyMatch(product -> product.getPrice() > 250);
+        System.out.println("any expensive product?: " + isAnyProductExpensive);
+
+        boolean areAllProductsInStock = productList.stream()
+                .allMatch(product -> product.getStock() > 0);
+        System.out.println(areAllProductsInStock);
+
+        boolean areNoProductsFree = productList.stream()
+                .noneMatch(product -> product.getPrice() == 0);
+        System.out.println(areNoProductsFree);
+    }
+
+    @Test
+    public void findFirst() {
+        Optional<Product> firstExpensiveProduct = productList.stream()
+                .filter(product -> product.getPrice() > 100)
+                .findFirst();
+        firstExpensiveProduct.ifPresent(product -> System.out.println("First expensive product: " + product.getName()));
+    }
+
+    @Test
+    public void findAny() {
+        Optional<Product> anyLowStockProduct = productList.stream()
+                .filter(product -> product.getStock() < 10)
+                .findAny();
+        anyLowStockProduct.ifPresent(product -> System.out.println(product.getName()));
+
+    }
 
 }
