@@ -46,6 +46,22 @@ public class StreamApiCreationTest {
     @Test
     public void testGenerate() {
         Stream.generate(Math::random).limit(10).forEach(System.out::println);
+        Stream<String> streamGenerated =
+                Stream.generate(()->"element").limit(10);
+        streamGenerated.forEach(System.out::println);
+    }
+
+    @Test
+    public void testStreamOfPrimitives() {
+        IntStream intStream = IntStream.range(1,3);
+        LongStream longStream = LongStream.rangeClosed(1,3);
+
+        System.out.println("Stream Object:" + intStream);
+        intStream.forEach(System.out::println);
+
+        System.out.println("Stream Object:" + longStream);
+        longStream.forEach(System.out::println);
+
     }
 
 
