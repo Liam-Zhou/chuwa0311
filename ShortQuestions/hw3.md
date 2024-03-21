@@ -2,6 +2,33 @@
 # Mar 20th 2024
 
 1. What is generic in Java? and type the generic code by yourself.
+- In Java, generics allow you to create classes, interfaces, and methods that operate with parameters of any data type. They provide a way to define classes and methods with placeholder types, which are specified when the class, interface, or method is used.
+```
+public class Box<T> {
+    private T value;
+
+    public void setValue(T value) {
+        this.value = value;
+    }
+
+    public T getValue() {
+        return value;
+    }
+
+    public static void main(String[] args) {
+        // Creating a Box for Integer values
+        Box<Integer> intBox = new Box<>();
+        intBox.setValue(10);
+        System.out.println("Integer value: " + intBox.getValue());
+
+        // Creating a Box for String values
+        Box<String> stringBox = new Box<>();
+        stringBox.setValue("Hello, World!");
+        System.out.println("String value: " + stringBox.getValue());
+    }
+}
+```
+- Generics provide several benefits, including type safety, code reusability, and improved readability. By using generics, you can write code that is more flexible and less error-prone.
 2. Read those codes and type it one by one by yourself. the push the code to your branch.
 3. practice stream API at least 3 times
 4. Practice Optional methods at least 2 times
