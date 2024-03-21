@@ -4,10 +4,7 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/Coding/coding1/pom.xml" />
-        <option value="$PROJECT_DIR$/Coding/NotificationDesgin/pom.xml" />
-        <option value="$PROJECT_DIR$/Coding/Practices/pom.xml" />
-        <option value="$PROJECT_DIR$/Coding/03-stream-api-exercises/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
