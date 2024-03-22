@@ -39,4 +39,17 @@ We suppose to put smaller scope Exception first, and larger scope exception afte
 
  - if we put Exception first, Exception will catch everything, Null/Runtime exception will never have a chance to catch anything and will be useless.
  - it can increase the effeciency.
-   
+
+## 8. What is Optional? Why do we use it? Write an Optional example
+Optional is a container that you may or may not have an object in it. 
+
+We use Optional mainly for dealing with the null check problem, without Optional, we suppose check null everytime when we use the object, otherwise we may encounter the NullPointerException. To deal with that, we may need to write many if check. Using Optional can significantly reduce code.
+
+```
+Optional<String> emptyOptional = Optional.empty();
+```
+
+
+
+
+
