@@ -48,6 +48,41 @@ We use Optional mainly for dealing with the null check problem, without Optional
 ```
 Optional<String> emptyOptional = Optional.empty();
 ```
+## 8. Why finally always be executed
+Since finally block will do cleanup and finalization of the task, so it will always execute to make sure everything will be ok
+
+## 9. Practice collection
+Please refer to Codings folder
+
+## 10. What are the types of design patterns in Java?
+- Creational Pattern
+- Structural Pattern
+- Behavioral Pattern
+
+## 11.What are the SOLID principle
+Five roles to make designs more understandable, flexible and maintainable
+
+- Signle Responsibility Principle
+- Open/Close Principle
+- Liskov substitution Principle
+- Interface Segregation Principle
+- Dependency Inversion Principle
+
+## 12. How can you achieve thread-safe singleton patterns in Java
+You can use static inner class (Lazy load) to hold the Singleton instance to make sure thread-safety.
+
+## 13.What do you understande by the Open-closed principle (OCP)?
+Software entities (class, modules, functions, etc) should be open for extension but close for modification.
+
+So the principle suggests that once a class or module is created and tested, it should be designed in a way that allows it to be easily extended to accommodate new functionalities or requirements without requiring changes to it existing code.
+
+## 14. Liskov’s substitution principle states that if class B is a subtype of class A, then object of type A may be substituted with any object of type B. What does this actually mean? (from OA ) choose your answer.
+1. It means that if the object of type A can do something, the object of type B could also be able to perform the same thing.
+
+## 15. Watch the design pattern video, and type the code, submit it to MavenProject folder
+Refer to the Codings folder
+
+
 
 
 
