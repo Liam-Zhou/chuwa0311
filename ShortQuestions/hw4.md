@@ -16,7 +16,6 @@ finally will supersede the previous catch result, so the value will be finally r
 ## 5. What is Runtime/unchecked exception? What is compile/checked exception?
 
  - compile/checked exception: exception will be checked during compile time, it must be catch or throw
-   - 
  - Runtime/unchecked exception: is the exception 
  - 
    
