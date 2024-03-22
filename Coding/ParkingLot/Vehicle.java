@@ -1,3 +1,5 @@
+package ParkingLot;
+
 public class Vehicle {
     String type;
     String registration;

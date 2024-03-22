@@ -1,3 +1,5 @@
+package ParkingLot;
+
 public class Main {
     public static void main(String[] args) {
         int nFloors=4;
