@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Coding/CreditCardNotification/CreditCardNotification.iml" filepath="$PROJECT_DIR$/Coding/CreditCardNotification/CreditCardNotification.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Repo/MavenProject/MavenProject.iml" filepath="$PROJECT_DIR$/Repo/MavenProject/MavenProject.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/chuwa0311.iml" filepath="$PROJECT_DIR$/.idea/chuwa0311.iml" />
       <module fileurl="file://$PROJECT_DIR$/Coding/coding1/coding1.iml" filepath="$PROJECT_DIR$/Coding/coding1/coding1.iml" />
     </modules>
