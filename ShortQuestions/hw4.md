@@ -33,5 +33,10 @@ public void myMethod() throws IOException {
     // Method code that might throw an IOException
 }
 ```
-    
+
+## 7. why do we put the Null/Runtime exception before Exception ?
+We suppose to put smaller scope Exception first, and larger scope exception after, there are two reasons
+
+ - if we put Exception first, Exception will catch everything, Null/Runtime exception will never have a chance to catch anything and will be useless.
+ - it can increase the effeciency.
    
