@@ -11,6 +11,11 @@ Please refer to coding folder
 No
 
 ## 4. Both catch and finally return result, what's the value?
-finally will supersede the result
+finally will supersede the previous catch result, so the value will be finally return result.
 
 ## 5. What is Runtime/unchecked exception? What is compile/checked exception?
+ - compile/checked exception: exception will be checked during compile time, it must be catch or throw
+   - 
+ - Runtime/unchecked exception: is the exception 
+ - 
+   
