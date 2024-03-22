@@ -16,6 +16,22 @@ finally will supersede the previous catch result, so the value will be finally r
 ## 5. What is Runtime/unchecked exception? What is compile/checked exception?
 
  - compile/checked exception: exception will be checked during compile time, it must be catch or throw
- - Runtime/unchecked exception: is the exception 
- - 
+   - IOException
+   - SQLException/NetworkException
+ - Runtime/unchecked exception: is the exception occur during run time, you do not have to handle it
+   - NullPointerException
+   - IndexOutOfBoundsException
+
+## 6. What is the difference between throw and throws
+throw keyword throw one exception, and it will inside of the method or block of code
+```
+throw new Exception("something went wrong");
+```
+throws keyword is using in the method signiture, and it can throw multiple exception
+```
+public void myMethod() throws IOException {
+    // Method code that might throw an IOException
+}
+```
+    
    
