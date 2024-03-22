@@ -1,3 +1,5 @@
+package ParkingLot;
+
 public class Slot {
     String type;
     Vehicle vehicle;
