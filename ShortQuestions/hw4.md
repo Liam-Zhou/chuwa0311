@@ -3,7 +3,7 @@
 ### 2. What is the checked exception and unchecked exception in Java, could you give one example?
 - Checked Exceptions are exceptions that are checked at compile time. 
 - Examples: SQLException, IOException
-- 
+  
 ### 3. Can there be multiple finally blocks?
 Yes
 
@@ -105,6 +105,7 @@ OCP means  Software entities (classes, modules, functions, etc.) should be open 
   - It means that all the objects of type A could execute all the methods present in its subtype B
   - It means if a method is present in class A, it should also be present in class B so that the object of type B could substitute object of type A.
   - It means that for the class B to inherit class A, objects of type B and objects of type A must be same.
+
 The third one.
 
 ### 15. Watch the design pattern video, and type the code, submit it to MavenProject folder
