@@ -1,0 +1,35 @@
+### 1. [Practice collection](https://github.com/CTYue/chuwa-eij-tutorial/tree/main/02-java-core/src/main/java/com/chuwa/exercise/collection)
+  
+### 2. What is the checked exception and unchecked exception in Java, could you give one example?
+- Checked Exceptions are exceptions that are checked at compile time. 
+
+### 3. Can there be multiple finally blocks?
+
+### 4. When both catch and finally return values, what will be the final result?
+
+### 5. What is Runtime/unchecked exception? What is Compile/Checked Exception?
+
+### 6. What is the difference between throw and throws?
+
+### 7. Run the below three pieces codes, Noticed the printed exceptions. why do we put the Null/Runtime exception before Exception?
+
+### 7. What is optional? why do you use it? write an optional example.
+
+
+### 8. Why finally always be executed?
+
+### 9. Practice collection problems here: https://github.com/TAIsRich/chuwa-eij-tutorial/tree/main/02-java-core/src/main/java/com/chuwa/exercise/collection
+
+### 10. What are the types of design patterns in Java ?
+
+### 11. What are the SOLID Principles?
+
+### 12. How can you achieve thread-safe singleton patterns in Java?
+
+
+### 13. What do you understand by the Open-Closed Principle (OCP) ?
+
+### 14. Liskov’s substitution principle states that if class B is a subtype of class A, then object of type A may be substituted with any object of type B. What does this actually mean? (from OA ) choose your answer. 
+
+
+### 15. Watch the design pattern video, and type the code, submit it to MavenProject folder
