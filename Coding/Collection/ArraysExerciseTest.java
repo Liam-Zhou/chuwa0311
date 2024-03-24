@@ -1,0 +1,88 @@
+package Collection;
+
+import org.junit.Test;
+
+import java.util.*;
+public class ArraysExerciseTest {
+    /**
+     * e.g.
+     * int[] numbers = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+     * numbers[?]
+     *
+     * numbers[?] = #
+     */
+
+    @Test
+    public void learn_Inserting_And_Retrieving() {
+        int[] numbers = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+        System.out.println(numbers[3]);
+        numbers[3] = 44;
+        System.out.println(numbers[3]);
+
+    }
+
+    /**
+     * binarySearch()
+     * e.g.
+     * Arrays.binarySearch(numbers, 4);
+     *
+     * sort(array)
+     * sort(array, fromIndex, toIndex)
+     * e.g.
+     * Arrays.sort(numbers);
+     *
+     * Arrays.parallelSort(numbers);
+     */
+    @Test
+    public void learn_search_and_sort() {
+        int[] numbers = { 1, 2, 3, 4, 5, 7, 6, 8, 9, 10 };
+        System.out.println(Arrays.binarySearch(numbers, 4));
+        Arrays.sort(numbers);
+        for(int i: numbers){
+            System.out.println(i);
+        }
+    }
+
+    /**
+     * copyOf()
+     * e.g.
+     * Arrays.copyOf(numbers, numbers.length);
+     *
+     * copyOfRange()
+     * e.g.
+     * Arrays.copyOfRange(numbers, 0, 5);
+     */
+    @Test
+    public void learn_copy_of_array() {
+        int[] numbers = {1, 2, 3, 4, 5};
+        int[] copy = Arrays.copyOf(numbers, numbers.length);
+        int[] rangeCopy = Arrays.copyOfRange(numbers, 0, 3);
+
+    }
+
+    /**
+     * asList()
+     * e.g.
+     * List<Integer> list = Arrays.asList(numbers);
+     *
+     * equals()
+     * e.g.
+     * Arrays.equals(numbers1, numbers2);
+     *
+     * fill()
+     * e.g.
+     * Arrays.fill(numbers, 20);
+     *
+     */
+
+    @Test
+    public void learn_common_operations() {
+        int[] numbers = {1, 2, 3, 4, 5};
+        List<Integer> list = Arrays.asList(1, 2, 3, 4, 5);
+        int[] numbers1 = {1, 2, 3};
+        int[] numbers2 = {1, 2, 3};
+        boolean areEqual = Arrays.equals(numbers1, numbers2);
+        System.out.println(areEqual);
+        Arrays.fill(numbers, 20);
+    }
+}
