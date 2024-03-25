@@ -114,7 +114,6 @@ public class StreamApiIntermediateOperation {
 
         ArrayList<Integer> list2 = new ArrayList<>();
         list2.add(4);
-        list2.add(5);
         list2.add(6);
 
         // 找出list2中的偶数，并乘以10
