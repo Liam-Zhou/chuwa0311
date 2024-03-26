@@ -121,3 +121,17 @@ Examples:
 
 ## 20. What kind of locks do you know? What is the advantage of each lock?
 - ReentrantLock
+- ReadWriteLock
+- StampedLock: 乐观锁，读的过程允许写
+
+## 21. What is future and completableFuture? List some main methods of ComplertableFuture.
+### Future
+- `Future` represents the result of an asynchronous computation
+- It allows you to check if the computation is complete, retrieve the result, and cancel the computation if nessessary
+- However, `Future` has limited capabilities for composing and combining multiple asynchronous tasks.
+
+  
+
+## 22. 
+
+
