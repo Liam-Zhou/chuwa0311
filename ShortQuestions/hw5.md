@@ -71,3 +71,15 @@ ExecutorService executor = Executors.newFixedThreadPool(4);
 executor.submit(task1);
 ```
 
+## 16. What is the advantage of ThreadPool?
+- Reusability of Threads
+- Resource managements
+- Improve responsiveness
+- Load Balancing
+- Simplified Thread management
+
+## 17. Difference between shutdown() and shutdownNow() methods of executor
+- `shutdown()` will initiate shutdown, and `ExecutorService` will stops accepting new task, but it waits for existing tasks to complete
+- `shutdownNow()` attemps to stop the `ExecutorService` immediately. It interrupt all actively executing tasks and prevents pending task from start.
+
+## 18. What is Atomic classes? How many types of Atomic classes? Give me some code example of Atomic classes and its main methods. when to use it?
