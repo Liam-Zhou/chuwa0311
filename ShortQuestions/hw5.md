@@ -62,4 +62,12 @@ Different Types of Thread Pool:
  - Custom Thread Pool: you can design your own thread pool by using ThreadPoolExecutor
    
 ## 14. Which Library is used to create ThreadPool? Which Interface provide main functions of thread-pool
+java.util.concurrent
+ExecutorService provide main function of thread-pool
+
+## 15. How to submit a task to ThreadPool?
+`
+ExecutorService executor = Executors.newFixedThreadPool(4);
+executor.submit(task1);
+`
 
