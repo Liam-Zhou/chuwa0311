@@ -66,8 +66,8 @@ java.util.concurrent
 ExecutorService provide main function of thread-pool
 
 ## 15. How to submit a task to ThreadPool?
-`
+```
 ExecutorService executor = Executors.newFixedThreadPool(4);
 executor.submit(task1);
-`
+```
 
