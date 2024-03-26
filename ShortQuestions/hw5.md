@@ -139,9 +139,10 @@ Examples:
   2. thenAccept: perform an action with the result of the computation and return a new `CompletableFuture` with no result
   
 
-## 22. Type the code by your self and try to understand it. (package com.chuwa.tutorial.t08_multithreading)
+## 22. Type the code by yourself and try to understand it. (package com.chuwa.tutorial.t08_multithreading)
 
 refer to the Codings folder
-## 23. Write a code to create 2 threads, one thread print 1,3,5,7,9, and another thread print 2, 4, 6, 8, 10
+
+## 23. Write a code to create 2 threads, one thread print 1, 3, 5, 7, 9, and another thread print 2, 4, 6, 8, 10
 
 
