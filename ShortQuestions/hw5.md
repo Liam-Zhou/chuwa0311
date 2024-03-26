@@ -130,8 +130,18 @@ Examples:
 - It allows you to check if the computation is complete, retrieve the result, and cancel the computation if nessessary
 - However, `Future` has limited capabilities for composing and combining multiple asynchronous tasks.
 
+### CompletableFuture
+- `CompletableFuture` extends `Future` and provides a more powerful and flexible API for asynchronous programming
+- It allows you to explicitly complete a computation, combine mulutiple asynchronous task sequentially or in parallel, and handle errors gracefully
+- `CompletableFuture` supports method chaining and composition, enabling you to build complex asychronous workflow easily
+
+- 1. thenApply: get the future result and then apply to a function
+  2. thenAccept: perform an action with the result of the computation and return a new `CompletableFuture` with no result
   
 
-## 22. 
+## 22. Type the code by your self and try to understand it. (package com.chuwa.tutorial.t08_multithreading)
+
+refer to the Codings folder
+## 23. Write a code to create 2 threads, one thread print 1,3,5,7,9, and another thread print 2, 4, 6, 8, 10
 
 
