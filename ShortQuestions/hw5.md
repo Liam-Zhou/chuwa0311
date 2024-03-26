@@ -144,5 +144,31 @@ Examples:
 refer to the Codings folder
 
 ## 23. Write a code to create 2 threads, one thread print 1, 3, 5, 7, 9, and another thread print 2, 4, 6, 8, 10
+```public class OddEvenPointer {
+    private static final Object monitor = new Object();
+    private static int value = 1;
+    public static void main(String[] args) {
+    }
 
+    static class PrintRunnable implements Runnable {
+
+        @Override
+        public void run() {
+            synchronized (monitor) {
+                while (value <= 10) {
+                    System.out.println(Thread.currentThread().getName() + ":" + value++);
+                    monitor.notify();
+                    try {
+                        if (value < 11) {
+                            monitor.wait();
+                        }
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                }
+            }
+        }
+    }
+}
+```
 
