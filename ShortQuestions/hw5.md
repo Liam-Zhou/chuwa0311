@@ -48,5 +48,18 @@ The class lock will associate with the class, and you can use it by use MyClass.
 `join()` method is a method provided by the `Thread` class that allows one thread to wait for the completion of another thread. When a thread calls `join` on another thread, it blocks until the other thread completes it execution
 
 ## 12. what is yield() method
-`yield`
+`yield` method is a static method provided by the `Thread` class. It suggests to the JVM that the current thread is williong to yield its current execution context to ohter thread of equal priority. However, it is important to note that `yield` is merely a hint to the JVM, and it's up to the JVM's scheduler to decide whether to honor this hint or not.
+
+## 13. What is ThreadPool? How many types of ThreadPool? What is the TaskQueue in ThreadPool?
+You can create a ThreadPool and make certain number of Threads in the ThreadPool. For example, you can create a ThreadPool with 4 threads. In This way, you can put your Tasks in to TaskQueue, and everytime you execute a task, you can just use the thread in the ThreadPool, no need to create new threads everytime. The ThreadPool will automatically assign task to threads.
+
+Different Types of Thread Pool:
+ - FixedThreadPool: fixed number of thread
+ - CatchedThreadPool: dynamically adjust the number of threads
+ - SingleThreadPool: only one thread, useful when tasks must execute in certain order
+ - ScheduledThreadPool: can schedule task to run after a specific delay
+ - WorkStealingPool: steal tasks from other thread to balance the workload
+ - Custom Thread Pool: you can design your own thread pool by using ThreadPoolExecutor
+   
+## 14. Which Library is used to create ThreadPool? Which Interface provide main functions of thread-pool
 
