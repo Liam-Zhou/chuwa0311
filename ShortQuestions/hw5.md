@@ -20,7 +20,8 @@
 ## 20. What kind of locks do you know? What is the advantage of each lock?
 ## 21. What is future and completableFuture? List some main methods of ComplertableFuture.
 ## 22. Type the code by your self and try to understand it. (package com.chuwa.tutorial.t08_multithreading)
-## 23. Write a code to create 2 threads, one thread print 1,3,5,7,9, another thread print 2,4,6,8,10. (solution is in com.chuwa.tutorial.t08_multithreading.c05_waitNotify.OddEventPrinter)
+## 23. Write a code to create 2 threads, one thread print 1,3,5,7,9, another thread print 2,4,6,8,10. 
+## (solution is in com.chuwa.tutorial.t08_multithreading.c05_waitNotify.OddEventPrinter)
 - a. One solution use synchronized and wait notify 
 - b. One solution use ReentrantLock and await, signal
 ```
@@ -72,8 +73,13 @@ Thread-1: 30
 
 ## 25. completable future:
 a. Homework 1: Write a simple program that uses CompletableFuture to asynchronously get the sum and product of two integers, and print the results.
+
 b. Homework 2: Assume there is an online store that needs to fetch data from three APIs: products, reviews, and inventory. Use CompletableFuture to implement this scenario and merge the fetched data for further processing. (需要找public api去模拟，)
+
 i. Sign In to Developer.BestBuy.com
+
 ii. Best Buy Developer API Documentation (bestbuyapis.github.io)
+
 iii. 可以⽤fake api https://jsonplaceholder.typicode.com/
+
 c. Homework 3: For Homework 2, implement exception handling. If an exception occurs during any API call, return a default value and log the exception information.
