@@ -83,3 +83,41 @@ executor.submit(task1);
 - `shutdownNow()` attemps to stop the `ExecutorService` immediately. It interrupt all actively executing tasks and prevents pending task from start.
 
 ## 18. What is Atomic classes? How many types of Atomic classes? Give me some code example of Atomic classes and its main methods. when to use it?
+Atomic class provide the concurrent version of the primitive types.
+There are many types, depends on the primitive types
+```
+
+public class AtomicExample {
+    public static void main(String[] args) {
+        AtomicInteger atomicInt = new AtomicInteger(0);
+
+        // Increment and get the value atomically
+        int incrementedValue = atomicInt.incrementAndGet();
+        System.out.println("Incremented value: " + incrementedValue);
+
+        // Decrement and get the value atomically
+        int decrementedValue = atomicInt.decrementAndGet();
+        System.out.println("Decremented value: " + decrementedValue);
+
+        // Add and get the value atomically
+        int addedValue = atomicInt.addAndGet(5);
+        System.out.println("Added value: " + addedValue);
+
+        // Compare and set atomically
+        boolean compareAndSetResult = atomicInt.compareAndSet(5, 10);
+        System.out.println("Compare and set result: " + compareAndSetResult);
+        System.out.println("Current value: " + atomicInt.get());
+    }
+```
+
+## 19. What is the concurrent collections? Can you list some concurrent data structure (Thread-safe)
+Its Java package that provide concurrent version of collection, so it support multi-threading.
+Examples:
+- CopyOnWriteArrayList
+- ConcurrentHashTable
+- CopyOnWriteArraySet
+- ArrayBlockingQueue/LinkedBlockingQueue
+- LinkedBlockingQueue
+
+## 20. What kind of locks do you know? What is the advantage of each lock?
+- ReentrantLock
