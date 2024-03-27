@@ -201,4 +201,6 @@ public class PrintNumber {
     }
 }
 ```
-## 25
+## 25. completable future
+
+### a. Write a simple program that uses CompletableFuture to asynchronously get the sum and product of two integers, and print the results.
