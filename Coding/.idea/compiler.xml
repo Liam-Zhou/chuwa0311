@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="coding_hw4" />
+        <module name="coding_hw24" />
         <module name="coding_hw3" />
       </profile>
     </annotationProcessing>

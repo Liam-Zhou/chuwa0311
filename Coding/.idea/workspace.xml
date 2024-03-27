@@ -5,18 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d69cc2a1-0816-4cf3-b10b-b0a8d8136bad" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/coding_hw4/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding_hw4/src/main/java/Collection/ArrayListExerciseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding_hw4/src/main/java/Collection/CollectionsExerciseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding_hw4/src/main/java/com/chuwa/learn/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding_hw4/src/main/java/com/chuwa/learn/Test_ShortQuestion7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding_hw4/src/main/java/com/chuwa/learn/Test_ShortQuestion7_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding_hw4/target/classes/Collection/ArrayListExerciseTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding_hw4/target/classes/Collection/CollectionsExerciseTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding_hw4/target/classes/com/chuwa/learn/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding_hw4/target/classes/com/chuwa/learn/Test_ShortQuestion7.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coding_hw4/target/classes/com/chuwa/learn/Test_ShortQuestion7_2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ShortQuestions/.hw4.md.swp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coding_hw24/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coding_hw24/src/main/java/OddEventPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coding_hw24/src/main/java/OddEventPrinter2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coding_hw24/src/main/java/WaitNotify.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coding_hw24/src/main/java/com/chuwa/learn/CompletableFutureHW1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coding_hw24/src/main/java/com/chuwa/learn/CompletableFutureHW2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coding_hw24/src/main/java/com/chuwa/learn/CompletableFutureHW3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coding_hw24/src/main/java/com/chuwa/learn/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coding_hw24/target/classes/OddEventPrinter$PrintRunnable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coding_hw24/target/classes/OddEventPrinter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coding_hw24/target/classes/OddEventPrinter2$PrintRunnable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coding_hw24/target/classes/OddEventPrinter2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coding_hw24/target/classes/TaskQueue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coding_hw24/target/classes/WaitNotify$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coding_hw24/target/classes/WaitNotify.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coding_hw24/target/classes/com/chuwa/learn/CompletableFutureHW1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coding_hw24/target/classes/com/chuwa/learn/CompletableFutureHW2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coding_hw24/target/classes/com/chuwa/learn/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShortQuestions/hw24.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
@@ -37,9 +44,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2dxG8qNrRvEgm5bWtGEh1yQIKzs" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -47,6 +54,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.CompletableFutureHW1.executor": "Run",
+    "Application.CompletableFutureHW2.executor": "Run",
+    "Application.CompletableFutureHW3.executor": "Run",
+    "Application.OddEventPrinter.executor": "Run",
     "Application.Test_ShortQuestion7.executor": "Run",
     "Application.Test_ShortQuestion7_2.executor": "Run",
     "JUnit.ArrayListExerciseTest.learn_Inserting_And_Retrieving.executor": "Run",
@@ -55,11 +66,13 @@
     "JUnit.ArrayListExerciseTest.learn_Sorting.executor": "Run",
     "JUnit.CollectionsExerciseTest.learn_common_collections_operations.executor": "Run",
     "JUnit.CollectionsExerciseTest.learn_thread_safe_ArrayList.executor": "Run",
+    "JUnit.LinkedListExerciseTest.executor": "Run",
+    "JUnit.LinkedListExerciseTest.learn_Remove_Sort.executor": "Run",
     "JUnit.StreamApiIntermediateOperation.testLimit.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "yuze__zhang/hw4",
+    "git-widget-placeholder": "yuze__zhang/hw24",
     "jdk.selected.JAVA_MODULE": "17",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/yuze/Documents/software/chuwa0311/Coding",
@@ -79,10 +92,10 @@
       <recent name="$PROJECT_DIR$/coding_hw3" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LinkedListExerciseTest.learn_Remove_Sort">
-    <configuration name="Test_ShortQuestion7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.chuwa.learn.Test_ShortQuestion7" />
-      <module name="coding_hw4" />
+  <component name="RunManager" selected="Application.CompletableFutureHW3">
+    <configuration name="CompletableFutureHW1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.chuwa.learn.CompletableFutureHW1" />
+      <module name="coding_hw24" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.chuwa.learn.*" />
@@ -93,9 +106,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test_ShortQuestion7_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.chuwa.learn.Test_ShortQuestion7_2" />
-      <module name="coding_hw4" />
+    <configuration name="CompletableFutureHW2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.chuwa.learn.CompletableFutureHW2" />
+      <module name="coding_hw24" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.chuwa.learn.*" />
@@ -106,33 +119,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CollectionsExerciseTest.learn_thread_safe_ArrayList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coding_hw4" />
+    <configuration name="CompletableFutureHW3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.chuwa.learn.CompletableFutureHW3" />
+      <module name="coding_hw24" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Collection.*" />
+          <option name="PATTERN" value="com.chuwa.learn.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Collection" />
-      <option name="MAIN_CLASS_NAME" value="Collection.CollectionsExerciseTest" />
-      <option name="METHOD_NAME" value="learn_thread_safe_ArrayList" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListExerciseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coding_hw4" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Collection.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Collection" />
-      <option name="MAIN_CLASS_NAME" value="Collection.LinkedListExerciseTest" />
-      <option name="TEST_OBJECT" value="class" />
+    <configuration name="OddEventPrinter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OddEventPrinter" />
+      <module name="coding_hw24" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -168,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CompletableFutureHW3" />
+        <item itemvalue="Application.CompletableFutureHW2" />
+        <item itemvalue="Application.CompletableFutureHW1" />
+        <item itemvalue="Application.OddEventPrinter" />
         <item itemvalue="JUnit.LinkedListExerciseTest.learn_Remove_Sort" />
-        <item itemvalue="JUnit.LinkedListExerciseTest" />
-        <item itemvalue="Application.Test_ShortQuestion7_2" />
-        <item itemvalue="Application.Test_ShortQuestion7" />
-        <item itemvalue="JUnit.CollectionsExerciseTest.learn_thread_safe_ArrayList" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +193,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1710942159353</updated>
-      <workItem from="1710942160546" duration="6751000" />
+      <workItem from="1710942160546" duration="7295000" />
+      <workItem from="1711469484373" duration="1770000" />
     </task>
     <servers />
   </component>
