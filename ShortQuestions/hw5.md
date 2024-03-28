@@ -451,6 +451,5 @@ public void some_method() {
     - exceptionally(Function<Throwable, ? extends T> fn)
     - handle(BiFunction<? super T, Throwable, ? extends U> fn)
 
-### 23.Write a code to create 2 threads, one thread print 1,3,5,7,9, another thread print 2,4,6,8,10.
--a. One solution use synchronized and wait notify
--b. One solution use ReentrantLock and await, signal
+### Q23 - Q25 
+- Done here: chuwa0311/Coding/hw5/t08_multithreading/src/main/java
